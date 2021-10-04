@@ -23,5 +23,15 @@ module.exports = {
         accessToken: process.env.GATSBY_CONTENTFUL_API_KEY,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        commonmark: true,
+        footnotes: true,
+        pedantic: true,
+        gfm: true,
+        plugins: [],
+      },
+    },
   ],
 }
