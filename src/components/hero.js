@@ -17,7 +17,7 @@ export default function Hero() {
           className="hero-author-image"
         ></img>
         <p>
-          Written by Takahiro.
+          Written by hogehoge.
           <br />
           Front Engineer at Hoge.Inc. Love JavaScript.
         </p>
